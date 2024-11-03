@@ -8,7 +8,7 @@ import Root from './pages/Root.tsx';
 
 const Router = createBrowserRouter([
   {
-    path: '/',
+    path: 'typescript-router/',
     element: <Root />,
     children: [
       {

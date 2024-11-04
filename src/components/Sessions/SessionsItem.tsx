@@ -19,7 +19,7 @@ export default function SessionItem({ item }: { item: SessionItm }) {
                 <h3>{item.title}</h3>
                 <p>{item.summary}</p>
                 <div className="actions">
-                    <Link to={`/sessions/${item.id}`} className="button">Learn More</Link>
+                    <Link to={`/typescript-router/sessions/${item.id}`} className="button">Learn More</Link>
                 </div>
             </div>
         </>

@@ -22,8 +22,8 @@ export default function Header() {
             <h1>React Mentoring</h1>
             <nav>
                 <ul>
-                    <li><NavLink to={"/"}>Our Mission</NavLink></li>
-                    <li><NavLink to={"/sessions"}>Browse Sessions</NavLink></li>
+                    <li><NavLink to={""} end>Our Mission</NavLink></li>
+                    <li><NavLink to={"sessions"}>Browse Sessions</NavLink></li>
                     <li><Button onClick={handleOpenSessions} >Upcoming sessions</Button></li>
                 </ul>
             </nav>
